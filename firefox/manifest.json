@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "reMARK",
+  "version": "1.0",
+  "description": "adds a reMARK of the current tab to remark.itsmethemojo.eu",
+  "homepage_url": "https://github.com/itsmethemojo",
+  "icons": {
+    "48": "icons/remark-icon-48.png",
+    "96": "icons/remark-icon-96.png"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/remark-icon-38.png",
+    "default_title": "reMARK"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
